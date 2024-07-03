@@ -2,6 +2,19 @@
   width: 150px;
 }
 
+.rhap_container {
+  background-color: transparent;
+  flex-direction: row-reverse;
+}
+
+.rhap_volume-button,
+.rhap_volume-bar,
+.iconify--midi.rhap_button-clear.rhap_main-controls-button.rhap_forward-button,
+.rhap_button-clear.rhap_main-controls-button.rhap_rewind-button,
+.rhap_button-clear.rhap_repeat-button, .rhap_time {
+  display: none;
+}
+
 @media screen and (min-width: 1100px) {
   #MusicImg {
     width: 200px;
