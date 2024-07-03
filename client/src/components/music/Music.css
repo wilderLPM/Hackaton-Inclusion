@@ -2,7 +2,12 @@
   width: 150px;
 }
 
-.rhap_container {
+#backgroundmusic {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+
+.rhap_container.rhap_loop--off.rhap_play-status--paused {
   background-color: transparent;
   flex-direction: row-reverse;
 }
@@ -11,7 +16,7 @@
 .rhap_volume-bar,
 .iconify--midi.rhap_button-clear.rhap_main-controls-button.rhap_forward-button,
 .rhap_button-clear.rhap_main-controls-button.rhap_rewind-button,
-.rhap_button-clear.rhap_repeat-button, .rhap_time {
+.rhap_button-clear.rhap_repeat-button, .rhap_time, .rhap_button-clear.rhap_main-controls-button.rhap_forward-button{
   display: none;
 }
 
