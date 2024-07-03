@@ -15,8 +15,11 @@ export default function HomePage() {
         <Testimony />
         <Music />
       </main>
-      <Button text="Histoire interactive" isLink />
+      <div id="buttonDiv" >
+      <Button text={`Découvrir le CV de ${name}`} isLink />
+      </div>
       <NavigationArrows />
+      {/* <Button text="Histoire interactive" isLink /> */}
     </>
   );
 }
