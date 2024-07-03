@@ -1,0 +1,28 @@
+:root {
+  --main-color: #32324a;
+  --secondary-color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("./assets/fonts/roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+body {
+  background-color: var(--main-color);
+}
+
+h1,
+h2,
+p,
+a,
+label {
+  color: white;
+  font-family: roboto;
+}
