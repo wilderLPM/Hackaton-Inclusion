@@ -7,7 +7,7 @@
     border-radius: 20px;
 }
 
-.rhap_container.rhap_loop--off.rhap_play-status--paused {
+.rhap_container.rhap_loop--off.rhap_play-status--paused, .rhap_container.rhap_loop--off.rhap_play-status--playing {
   background-color: transparent;
   flex-direction: row-reverse;
 }
