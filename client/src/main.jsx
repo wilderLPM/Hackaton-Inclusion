@@ -10,16 +10,16 @@ import InteractiveStoryPage from "./pages/InteractiveStoryPage";
 const router = createBrowserRouter([
   {
     element: <App />,
-    children:[
+    children: [
       {
         path: "/",
-        element: <HomePage />
+        element: <HomePage />,
       },
       {
         path: "/game",
-        element: <InteractiveStoryPage />
+        element: <InteractiveStoryPage />,
       },
-  ]
+    ],
   },
 ]);
 
