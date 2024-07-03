@@ -1,3 +1,3 @@
-export default function InteractiveStoryPage(){
-    return (<h2>Jeu</h2>);
+export default function InteractiveStoryPage() {
+  return <h2>Jeu</h2>;
 }
