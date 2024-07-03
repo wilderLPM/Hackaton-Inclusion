@@ -1,10 +1,12 @@
+import Testimony from "../components/testimony/Testimony";
 import Button from "../components/Button";
 
 export default function HomePage() {
   return (
-    <div>
-      <h1>Inclusion</h1>
+    <>
+      <h1>L'histoire de Jean michel</h1>
+      <Testimony />
       <Button text="Histoire interactive" isLink />
-    </div>
+    </>
   );
 }
