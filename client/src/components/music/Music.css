@@ -39,7 +39,7 @@
   flex-wrap: wrap;
 }
 
-.rhap_container.rhap_loop--off.rhap_play-status--paused {
+.rhap_container.rhap_loop--off.rhap_play-status--paused, .rhap_container.rhap_loop--off.rhap_play-status--playing {
     width: 250px;
   }
 
