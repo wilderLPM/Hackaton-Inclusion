@@ -26,3 +26,13 @@ label {
   color: white;
   font-family: "roboto";
 }
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 5%;
+}
+
+p {
+  font-size: 1.3em;
+}
