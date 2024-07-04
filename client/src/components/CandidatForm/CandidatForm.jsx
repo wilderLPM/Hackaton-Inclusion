@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Button from "../Button";
 import styles from "./CandidatForm.module.css";
 
 export default function CandidatForm() {
@@ -56,7 +57,6 @@ export default function CandidatForm() {
     setMusique(e.target.value);
   };
 
-
   const handleSubmit = (event) => {
     event.preventDefault();
     fetch("http://localhost:8500/user", {
@@ -92,103 +92,112 @@ export default function CandidatForm() {
 
   return (
     <section className={styles.generalContainer}>
-      <h2>Parlez nous de vous</h2>
-      <div className={styles.registerContainer}>
-        <label htmlFor="prénom">
+      <h1>Parlez nous de vous</h1>
+      <form className={styles.registerContainer}>
+        <label className={styles.label} htmlFor="prénom">
           Nom et Prénom
-          <input
-            id="nom"
-            name="nom"
-            value={nom}
-            onChange={handleNom}
-          />
         </label>
-        <label htmlFor="adresse">
-          adresse
-          <input
-            id="adresse"
-            name="adresse"
-            value={adresse}
-            onChange={handleChangeAdresse}
-          />
-        </label>
-        <label htmlFor="tel">
-          tel
-          <input
-            id="tel"
-            name="tel"
-            value={tel}
-            onChange={handleChangeTel}
-          />
-        </label>
-        <label htmlFor="mail">
-          Adresse Email
-          <input
-            id="mail"
-            name="mail"
-            value={mail}
-            onChange={handleChangeMail}
-          />
-        </label>
-        <label htmlFor="experience">
-          Expériences
-          <input
-            id="experience"
-            name="experience"
-            value={experience}
-            onChange={handleChangExperience}
-          />
-        </label>
-        <label htmlFor="formation">
-          Formations
-          <input
-            id="formation"
-            name="formation"
-            value={mail}
-            onChange={handleChangFormation}
-          />
-        </label>
-        <label htmlFor="skills">
-          Compétences
-          <input
-            id="skills"
-            name="skills"
-            value={skills}
-            onChange={handleChangSkills}
-          />
-        </label>
-        <label htmlFor="profil">
-          Quelques mots pour vous décrire
-          <input
-            id="profil"
-            name="profil"
-            value={profil}
-            onChange={handleChangProfil}
-          />
-        </label>
-        <label htmlFor="age">
+        <input
+          className={styles.input}
+          id="nom"
+          name="nom"
+          value={nom}
+          onChange={handleNom}
+        />
+        <label className={styles.label} htmlFor="age">
           Age
-          <input
-            id="age"
-            name="age"
-            value={profil}
-            onChange={handleChangAge}
-          />
         </label>
-        <label htmlFor="musique">
-          Votre musique
-          <input
-            id="musique"
-            name="musique"
-            value={musique}
-            onChange={handleChangMusique}
-          />
+        <input
+          className={styles.input}
+          id="age"
+          name="age"
+          value={age}
+          onChange={handleChangAge}
+        />
+        <label className={styles.label} htmlFor="adresse">
+          Adresse
         </label>
+        <input
+          className={styles.input}
+          id="adresse"
+          name="adresse"
+          value={adresse}
+          onChange={handleChangeAdresse}
+        />
+        <label className={styles.label} htmlFor="tel">
+          Numéro de Téléphone
+        </label>
+        <input
+          className={styles.input}
+          id="tel"
+          name="tel"
+          value={tel}
+          onChange={handleChangeTel}
+        />
+        <label className={styles.label} htmlFor="mail">
+          Email
+        </label>
+        <input
+          className={styles.input}
+          id="mail"
+          name="mail"
+          value={mail}
+          onChange={handleChangeMail}
+        />
+        <label className={styles.label} htmlFor="experience">
+          Expériences
+        </label>
+        <input
+          className={styles.input}
+          id="experience"
+          name="experience"
+          value={experience}
+          onChange={handleChangExperience}
+        />
+        <label className={styles.label} htmlFor="formation">
+          Formations
+        </label>
+        <input
+          className={styles.input}
+          id="formation"
+          name="formation"
+          value={formation}
+          onChange={handleChangFormation}
+        />
+        <label className={styles.label} htmlFor="skills">
+          Compétences
+        </label>
+        <input
+          className={styles.input}
+          id="skills"
+          name="skills"
+          value={skills}
+          onChange={handleChangSkills}
+        />
+        <label className={styles.label} htmlFor="profil">
+          Quelques mots pour vous décrire
+        </label>
+        <input
+          className={styles.input}
+          id="profil"
+          name="profil"
+          value={profil}
+          onChange={handleChangProfil}
+        />
 
-        <button type="button" onClick={handleSubmit}>
-          Ajouter votre CV
-        </button>
-      </div>
+        <label className={styles.label} htmlFor="musique">
+          Votre musique
+        </label>
+        <input
+          className={styles.input}
+          id="musique"
+          name="musique"
+          value={musique}
+          onChange={handleChangMusique}
+        />
+      </form>
+
+      <Button text="Ajouter votre CV" isLink link="/" onClick={handleSubmit} />
     </section>
   );
 }
