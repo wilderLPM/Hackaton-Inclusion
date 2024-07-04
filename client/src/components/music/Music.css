@@ -39,9 +39,10 @@
   flex-wrap: wrap;
 }
 
-.rhap_container.rhap_loop--off.rhap_play-status--paused, .rhap_container.rhap_loop--off.rhap_play-status--playing {
-    width: 250px;
-  }
+.rhap_container.rhap_loop--off.rhap_play-status--paused,
+.rhap_container.rhap_loop--off.rhap_play-status--playing {
+  width: 250px;
+}
 
 .rhap_volume-button,
 .rhap_volume-bar,
