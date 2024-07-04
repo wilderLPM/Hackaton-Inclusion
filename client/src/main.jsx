@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import HomePage from "./pages/HomePage";
 import InteractiveStoryPage from "./pages/InteractiveStoryPage";
+import CandidatForm from "./components/CandidatForm/CandidatForm";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/game",
         element: <InteractiveStoryPage />,
+      },
+      {
+        path: "/candidat",
+        element: <CandidatForm />,
       },
     ],
   },
