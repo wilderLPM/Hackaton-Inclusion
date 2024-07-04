@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import HomePage from "./pages/HomePage";
 import InteractiveStoryPage from "./pages/InteractiveStoryPage";
+import FormulaireEntr from "./pages/FormulaireEntr";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
+      },
+      {
+        path: "/entreprise",
+        element: <FormulaireEntr />,
       },
       {
         path: "/game",
