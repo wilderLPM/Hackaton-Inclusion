@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./CandidatForm.css";
+import styles from "./CandidatForm.module.css";
 
 export default function CandidatForm() {
   const [nom, setNom] = useState("");
