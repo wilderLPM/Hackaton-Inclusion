@@ -11,7 +11,7 @@ export default class AbstractModels {
     if(this.connexion === null) {
       this.connexion = mysql.createConnection({
         host: 'localhost',
-        user: process.env.USERNAME,
+        user: process.env.USER_NAME,
         password: process.env.USER_PASSWORD,
         database: 'echo'
       });
