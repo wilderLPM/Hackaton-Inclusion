@@ -3,7 +3,7 @@ import "./Music.css";
 import Note from "../../assets/music.png";
 
 export default function Music({id}) {
-  const musique = (`/music/music${id}.mp3`) 
+  let musique = (`/music/music${id}.mp3`) 
   return (
     <div id="musicDiv">
       <div id="backgroundmusic">
