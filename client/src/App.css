@@ -33,7 +33,7 @@ label {
   font-family: "roboto";
 }
 
-h1 {
+h1, h2 {
   font-size: 3em;
   text-align: center;
   margin: 5%;

@@ -4,7 +4,7 @@ import "./FormulaireEntr.css";
 export default function FormulaireEntr() {
   return (
     <div id="formglobal">
-      <h1> FORMULAIRE D'ENTREPRISE</h1>
+      <h2> FORMULAIRE D'ENTREPRISE</h2>
       <form id="formEntr">
         <label className="labelclass1" htmlFor="poste">
           Que recherchez vous ?

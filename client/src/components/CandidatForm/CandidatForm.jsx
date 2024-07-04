@@ -92,7 +92,7 @@ export default function CandidatForm() {
 
   return (
     <section className={styles.generalContainer}>
-      <h1>Parlez nous de vous</h1>
+      <h2>Parlez nous de vous</h2>
       <form className={styles.registerContainer}>
         <label className={styles.label} htmlFor="prénom">
           Nom et Prénom
