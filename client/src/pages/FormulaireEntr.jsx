@@ -18,16 +18,16 @@ export default function FormulaireEntr() {
           <option value="rock" className="inputclass">
             Rock
           </option>
-          <option value="rock" className="inputclass">
+          <option value="jazz" className="inputclass">
             Jazz
           </option>
-          <option value="rock" className="inputclass">
+          <option value="rap" className="inputclass">
             Rap
           </option>
-          <option value="rock" className="inputclass">
+          <option value="metal" className="inputclass">
             Métal
           </option>
-          <option value="rock" className="inputclass">
+          <option value="funk" className="inputclass">
             Funk
           </option>
         </select>
