@@ -2,6 +2,7 @@
     "module": "ESNext",
     "esModuleInterop": true,
     "target": "es6",
+    "resolveJsonModule": true,
     "moduleResolution": "node",
     "sourceMap": true,
     "outDir": "dist"

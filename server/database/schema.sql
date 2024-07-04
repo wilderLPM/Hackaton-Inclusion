@@ -1,12 +1,18 @@
-create table user (
-  id int unsigned primary key auto_increment not null,
-  email varchar(255) not null unique,
-  password varchar(255) not null
-);
+DROP DATABASE IF EXISTS echo;
+CREATE DATABASE echo;
 
-create table item (
-  id int unsigned primary key auto_increment not null,
-  title varchar(255) not null,
-  user_id int unsigned not null,
-  foreign key(user_id) references user(id)
-);
+USE echo;
+
+CREATE TABLE cv (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(255) NOT NULL,
+    adresse VARCHAR(255) NOT NULL,
+    tel VARCHAR(255) NOT NULL,
+    mail VARCHAR(255) NOT NULL,
+    experience TEXT NOT NULL,
+    formation TEXT NOT NULL,
+    skills TEXT NOT NULL,
+    profil TEXT NOT NULL,
+    age INT NOT NULL,
+    musique TEXT
+)
