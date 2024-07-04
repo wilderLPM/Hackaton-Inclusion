@@ -47,7 +47,7 @@ export default function SoulPhage() {
                 age={data.data.age}
               />
             </div>
-            <Music musique={data.data.musique} />
+            <Music id={data.data.id} />
           </main>
           <div id="buttonDiv2">
             <button type="button" className="mainButton" onClick={handleClick}>

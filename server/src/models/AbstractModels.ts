@@ -5,7 +5,7 @@ dotenv.config();
 export default class AbstractModels {
   connexion = null;
   constructor() {
-    console.log(process.env.USERNAME);
+    console.log(process.env.USER_NAME);
     
     this.singleton();
   }
@@ -13,8 +13,8 @@ export default class AbstractModels {
     if(this.connexion === null) {
       this.connexion = mysql.createConnection({
         host: 'localhost',
-        user: 'charlotte',
-        password: 'IntoTheWild',
+        user: process.env.USER_NAME,
+        password: process.env.USER_PASSWORD,
         database: 'echo'
       });
     }

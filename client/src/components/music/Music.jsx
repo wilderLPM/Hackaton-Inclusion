@@ -1,9 +1,9 @@
 import AudioPlayer from "react-h5-audio-player";
 import "./Music.css";
 import Note from "../../assets/music.png";
-import intro from "../../../public/music/intro.mp3";
 
-export default function Music({musique}) {
+export default function Music({id}) {
+  const musique = (`/music/music${id}.mp3`) 
   return (
     <div id="musicDiv">
       <div id="backgroundmusic">
@@ -12,8 +12,6 @@ export default function Music({musique}) {
       <AudioPlayer
         autoPlay
         src={musique}
-        // onPlay={console.log("onPlay")}
-        // other props here
       />
     </div>
   );
