@@ -10,7 +10,7 @@
             "skills": "Langages: Python, R, SQL, sarcasme avancé. Outils: Tableau, Power BI, boule de cristal. Autres: Capacité à expliquer les concepts de big data à des enfants de cinq ans (et aux adultes qui se sentent perdus).",
             "profil": "Faire comprendre les mystères de l'univers de la data même à ceux qui pensent que SQL est une nouvelle marque de vêtements.",
             "age": 1000,
-            "musique": "music5"
+            "musique": "/music/music5/mp3"
         },
         {
             "nom": "Matthieu le Magnifique",
@@ -22,7 +22,7 @@
             "skills": "Langages: HTML5, CSS3, JavaScript, humour léger. Outils: Photoshop, Illustrator, magie noire. Autres: Transforme les wireframes en œuvres d'art interactives.",
             "profil": "Transformer chaque étudiant en artiste du web, même ceux qui pensent que CSS est une maladie rare.",
             "age": 240,
-            "musique": "music4"
+            "musique": "/music/music4/mp3"
         },
         {
             "nom": "William le Widget Wizard",
@@ -34,7 +34,7 @@
             "skills":  "Langages: Java, Swift, Kotlin, incantations vaudou. Outils: Xcode, Android Studio, baguette magique. Autres: Transformation des idées en applications fonctionnelles (presque) sans bugs.",
             "profil": "Former la prochaine génération de développeurs d'applications, même ceux qui pensent que 'Java' est juste une île en Indonésie.",
             "age": 360,
-            "musique": "music3"
+            "musique": "/music/music3/mp3"
         }
     ]
 }

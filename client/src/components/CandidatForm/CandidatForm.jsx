@@ -59,7 +59,7 @@ export default function CandidatForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetch("http://localhost:8500/user", {
+    fetch("http://localhost:3310/api/cv/created", {
       method: "POST",
       credentials: "include",
       headers: { "Content-Type": "application/json" },
@@ -201,7 +201,7 @@ export default function CandidatForm() {
         text1="Ajouter votre CV"
         isLink
         link="/soulphage"
-        onClick={handleSubmit}
+        handleButton={handleSubmit}
       />
     </section>
   );
