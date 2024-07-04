@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .registerContainer {
@@ -27,19 +28,6 @@
   color: black;
   margin-top: 5%;
 }
-
-.buttonContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.button {
-  margin-top: 1rem;
-  width: 50%;
-  height: 2rem;
-  font-size: 1rem;
-}
-
 @media screen and (min-width: 1100px) {
   .registerContainer {
     width: 60%;

@@ -25,7 +25,7 @@ export default function Testimony({
         <h3>Compétences</h3>
         {skills}
         <h3>Age</h3>
-        {age}
+        {age} ans
       </p>
     </div>
   );

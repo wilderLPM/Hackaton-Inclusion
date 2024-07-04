@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Button.module.css";
 
-export default function Button({ text1, text2, isLink, link }) {
+export default function Button({ text1, text2, isLink, link, handleButton }) {
   return isLink ? (
     <Link to={link} className={styles.button}>
       {text1}
@@ -10,7 +10,7 @@ export default function Button({ text1, text2, isLink, link }) {
       <p>{text2}</p>
     </Link>
   ) : (
-    <button type="button" className={styles.button}>
+    <button type="button" onClick={handleButton} className={styles.button}>
       {text1}
       <br />
       {text2}
