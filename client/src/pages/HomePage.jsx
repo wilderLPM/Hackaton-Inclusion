@@ -2,16 +2,17 @@
 // import Form1
 // import Form2
 import Button from "../components/Button";
+import "./HomePage.css";
 
 export default function HomePage() {
   return (
-    <>
+    <div id="homeDiv">
       <h1>Échos d'ailleurs</h1>
       <div id="buttonDiv">
-        <Button text={`S'inscrire en tant que candidat`} isLink />
-        <Button text={`S'inscrire en tant que recruteur`} isLink />
+        <Button text1="S'inscrire en tant que" text2="Candidat" isLink link="/form-cand"/>
+        <Button text1="S'inscrire en tant que" text2="Recruteur" isLink link="/form-entr"/>
       </div>
       {/* <Button text="Histoire interactive" isLink /> */}
-    </>
+    </div>
   );
 }
