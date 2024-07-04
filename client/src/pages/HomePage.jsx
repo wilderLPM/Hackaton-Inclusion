@@ -13,16 +13,15 @@ export default function HomePage() {
           text1="S'inscrire en tant que"
           text2="Candidat"
           isLink
-          link="/form-cand"
+          link="/candidat"
         />
         <Button
           text1="S'inscrire en tant que"
           text2="Recruteur"
           isLink
-          link="/form-entr"
+          link="/entreprise"
         />
       </div>
-      {/* <Button text="Histoire interactive" isLink /> */}
     </div>
   );
 }

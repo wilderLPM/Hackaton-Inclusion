@@ -6,6 +6,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
 import HomePage from "./pages/HomePage";
 import InteractiveStoryPage from "./pages/InteractiveStoryPage";
+import CandidatForm from "./components/CandidatForm/CandidatForm";
+import FormulaireEntr from "./pages/FormulaireEntr";
+import SoulPhage from "./pages/SoulPhage";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +19,20 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
+        path: "/entreprise",
+        element: <FormulaireEntr />,
+      },
+      {
         path: "/game",
         element: <InteractiveStoryPage />,
+      },
+      {
+        path: "/candidat",
+        element: <CandidatForm />,
+      },
+      {
+        path: "/soulphage",
+        element: <SoulPhage />,
       },
     ],
   },
