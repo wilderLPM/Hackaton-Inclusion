@@ -11,6 +11,34 @@
     margin-top : 5%;
 }
 
+.non {
+    display: none;
+}
+
+.visible {
+    display: flex;
+    width: 60%;
+}
+
+.mainButton {
+    background-color: var(--third-color);
+    border-style: none;
+    height: 44px;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: auto;
+  }
+  
+  .mainButton:hover {
+    background-color: var(--secondary-color);
+  }
+  
+
 @media screen and (min-width: 1100px) {
   #mainPage {
     flex-direction: row;
