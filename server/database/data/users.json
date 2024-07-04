@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "nom": "Vivien le Visionnaire",
+            "adresse": "",
+            "tel": "123-456-7890",
+            "mail": "vivien.bigdata@datauniverse.com",
+            "experience": "2015 - Présent: Maître des Données\nEnseigne les bases de données, le machine learning, et l'art de ne pas casser Excel en une seule formule. Organisateur du championnat annuel de 'Qui écrira la requête SQL la plus incompréhensible'.",
+            "formation": "2005 - 2010: Université de Bigdata\nDoctorat en Science des Données\nThèse: 'Comment prédire le prochain gagnant de la Star Academy avec un modèle de régression linéaire'.",
+            "skills": "Langages: Python, R, SQL, sarcasme avancé. Outils: Tableau, Power BI, boule de cristal. Autres: Capacité à expliquer les concepts de big data à des enfants de cinq ans (et aux adultes qui se sentent perdus).",
+            "profil": "Faire comprendre les mystères de l'univers de la data même à ceux qui pensent que SQL est une nouvelle marque de vêtements.",
+            "age": 1000,
+            "musique": "music1"
+        },
+        {
+            "nom": "Matthieu le Magnifique",
+            "adresse": "",
+            "tel": "987-654-3210",
+            "mail": "matthieu.webwizard@designville.com",
+            "experience": "2014 - Présent: Guru du Design Web\nÉcole des Magiciens du Web\nEnseigne HTML, CSS, et comment éviter les horreurs du web des années 90. Organise des concours de 'Refaire MySpace en 24h'.",
+            "formation": "2004 - 2009: Master en Web Design et Arts Numériques\n Institut de la Créativité Extrême\nProjet final: 'La création d'un site web entièrement en Comic Sans, et pourquoi c'est une mauvaise idée'.",
+            "skills": "Langages: HTML5, CSS3, JavaScript, humour léger. Outils: Photoshop, Illustrator, magie noire. Autres: Transforme les wireframes en œuvres d'art interactives.",
+            "profil": "Transformer chaque étudiant en artiste du web, même ceux qui pensent que CSS est une maladie rare.",
+            "age": 240,
+            "musique": "music2"
+        },
+        {
+            "nom": "William le Widget Wizard",
+            "adresse": "",
+            "tel": "321-654-9870",
+            "mail": "william.appdev@codecastle.com",
+            "experience": "2013 - Présent: Sorcier des Apps:\nUniversité des Applications Magiques\nEnseigne Java, Swift, et l'art de déboguer sans perdre son sang-froid.\nSupervise les projets étudiants comme 'L'application qui ne plante jamais'.",
+            "formation": "2003 - 2008 Master en Développement d'Applications Projet final:\nÉcole des Codeurs Magiques\nUne application qui commande des pizzas automatiquement à chaque plantage de code.",
+            "skills":  "Langages: Java, Swift, Kotlin, incantations vaudou. Outils: Xcode, Android Studio, baguette magique. Autres: Transformation des idées en applications fonctionnelles (presque) sans bugs.",
+            "profil": "Former la prochaine génération de développeurs d'applications, même ceux qui pensent que 'Java' est juste une île en Indonésie.",
+            "age": 360,
+            "musique": "music3"
+        }
+    ]
+}

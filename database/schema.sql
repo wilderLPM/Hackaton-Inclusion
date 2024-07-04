@@ -1,10 +1,9 @@
 DROP DATABASE IF EXISTS echo;
 CREATE DATABASE echo;
-
 USE echo;
 
 CREATE TABLE cv (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     nom VARCHAR(255) NOT NULL,
     adresse VARCHAR(255) NOT NULL,
     tel VARCHAR(255) NOT NULL,
@@ -14,5 +13,5 @@ CREATE TABLE cv (
     skills TEXT NOT NULL,
     profil TEXT NOT NULL,
     age INT NOT NULL,
-    musique TEXT
-)
+    musique TEXT NOT NULL
+);
