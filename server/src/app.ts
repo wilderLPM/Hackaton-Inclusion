@@ -12,4 +12,4 @@ app.use(cors({origin: '*'}))
 
 app.use('/api/cv', cvRouter)
 
-app.listen(3000);
+app.listen(3310);

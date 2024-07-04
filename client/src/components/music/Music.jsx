@@ -3,7 +3,7 @@ import "./Music.css";
 import Note from "../../assets/music.png";
 import intro from "../../../public/music/intro.mp3";
 
-export default function Music() {
+export default function Music({musique}) {
   return (
     <div id="musicDiv">
       <div id="backgroundmusic">
@@ -11,7 +11,7 @@ export default function Music() {
       </div>
       <AudioPlayer
         autoPlay
-        src={intro}
+        src={musique}
         // onPlay={console.log("onPlay")}
         // other props here
       />

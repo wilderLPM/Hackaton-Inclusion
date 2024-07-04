@@ -5,6 +5,14 @@
   margin: 10%;
 }
 
+h3 {
+  margin-top: 5%;
+}
+
+#testimonyname {
+  text-align: center;
+}
+
 @media screen and (min-width: 1100px) {
   #testominyDiv {
     padding: 3em;

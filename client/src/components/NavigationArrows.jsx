@@ -7,12 +7,14 @@ export default function NavigationArrows({
   playlistLength,
 }) {
   const handleClick = (e) => {
-    if (e.target.value === "previous" && musicPlayed > 0) {
+    if (e.target.value === "previous" && musicPlayed > 1) {
+        console.log(musicPlayed)
       setMusicPlayed(musicPlayed - 1);
     } else if (
-      e.target.value === "previous" &&
-      musicPlayed < playlistLength - 1
+      e.target.value === "next" &&
+      musicPlayed < playlistLength
     ) {
+        console.log(musicPlayed)
       setMusicPlayed(musicPlayed + 1);
     }
   };

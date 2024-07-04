@@ -1,17 +1,31 @@
 import "./Testimony.css";
 
-export default function Testimony() {
+export default function Testimony({
+  nom,
+  mail,
+  experience,
+  formation,
+  skills,
+  profil,
+  age,
+}) {
   return (
     <div id="testominyDiv">
       <p id="testimonyText">
-        {" "}
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum{" "}
+        <h3 id="testimonyname">Nom {nom}</h3>
+        
+        <h3>profil</h3>
+        {profil}
+        <h3>Mail</h3>
+        {mail}
+        <h3>Expérience(s)</h3>
+        {experience}
+        <h3>Formation(s)</h3>
+        {formation}
+        <h3>Compétences</h3>
+        {skills}
+        <h3>Age</h3>
+        {age}
       </p>
     </div>
   );

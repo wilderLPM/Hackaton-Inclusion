@@ -7,5 +7,5 @@ app.use(cors({ origin: '*' }))
     .use(bodyParser.urlencoded({ extended: false }))
     .use(bodyParser.json());
 app.use('/api/cv', cvRouter);
-app.listen(3000);
+app.listen(3310);
 //# sourceMappingURL=app.js.map
