@@ -2,9 +2,9 @@
 import { Link } from "react-router-dom";
 import styles from "./Button.module.css";
 
-export default function Button({ text, isLink }) {
+export default function Button({ text, isLink, link }) {
   return isLink ? (
-    <Link to="/game" className={styles.button}>
+    <Link to={link} className={styles.button}>
       {text}
     </Link>
   ) : (

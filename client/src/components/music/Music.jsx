@@ -6,15 +6,15 @@ import intro from "../../../public/music/intro.mp3";
 export default function Music() {
   return (
     <div id="musicDiv">
-        <div id="backgroundmusic" >
-      <img src={Note} alt="note de musique sur fond orange" id="MusicImg" />
+      <div id="backgroundmusic">
+        <img src={Note} alt="note de musique sur fond orange" id="MusicImg" />
       </div>
       <AudioPlayer
-          autoPlay
-          src={intro}
-          // onPlay={console.log("onPlay")}
-          // other props here
-        />
+        autoPlay
+        src={intro}
+        // onPlay={console.log("onPlay")}
+        // other props here
+      />
     </div>
   );
 }
