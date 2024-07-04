@@ -6,39 +6,19 @@ export default function FormulaireEntr() {
       <label className="" htmlFor="poste">
         Quel poste recherchez vous ?
       </label>
-      <input
-        className=""
-        type="text"
-        name="poste"
-        required
-      />
+      <input className="" type="text" name="poste" required />
       <label className="" htmlFor="musique">
         Quelle est votre type de musique ?
       </label>
-      <input
-        className=""
-        type="text"
-        name="poste"
-        required
-      />
+      <input className="" type="text" name="poste" required />
       <label className="" htmlFor="artiste">
         Votre artiste préféré ?
       </label>
-      <input
-        className=""
-        type="text"
-        name="poste"
-        required
-      />
-            <label className="" htmlFor="artiste">
+      <input className="" type="text" name="poste" required />
+      <label className="" htmlFor="artiste">
         L'instrument que vous jouez ou aimeriez jouer ?
       </label>
-      <input
-        className=""
-        type="text"
-        name="poste"
-        required
-      />
+      <input className="" type="text" name="poste" required />
     </form>
   );
 }

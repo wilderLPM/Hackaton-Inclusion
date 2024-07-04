@@ -7,9 +7,7 @@ export default function Button({ text1, text2, isLink, link }) {
     <Link to={link} className={styles.button}>
       {text1}
       <br />
-      <p>
-        {text2}
-      </p>
+      <p>{text2}</p>
     </Link>
   ) : (
     <button type="button" className={styles.button}>
