@@ -14,6 +14,24 @@
   width: 80%;
 }
 
+#background-video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  }
+
+  #title{
+    font-size: 7rem;
+    backdrop-filter: sepia(80%);
+    color: var(--secondary-color);
+    border-radius: 10px;
+  }
+
 .non {
   display: none;
 }
